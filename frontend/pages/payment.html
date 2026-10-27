@@ -566,7 +566,7 @@
         var finalPrice = baseTotal;
 
         if (paymentMethod === 'cash') {
-          finalPrice = 25;
+          finalPrice = 5;
           remaining = Math.max(0, baseTotal - finalPrice);
           document.getElementById('discountRow').style.display = 'flex';
           document.getElementById('remainingLabel').textContent = 'المبلغ المتبقي';
